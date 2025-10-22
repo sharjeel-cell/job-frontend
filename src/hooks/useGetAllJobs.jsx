@@ -1,6 +1,6 @@
 import {setAllJobs} from '@/redux/jobSlice';
 import { useEffect } from 'react'
-import axios from 'axios';
+import axios from "../api/axios";
 import {JOB_API_END_POINT } from '../utils/constant';
 import {useDispatch, useSelector} from 'react-redux';
 const useGetAllJobs = () => {
