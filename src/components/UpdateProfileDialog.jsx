@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {useDispatch, useSelector} from 'react-redux';
-import axios from "../api/axios";
+import axios from "@/api/axios"; 
 import {
   Dialog,
   DialogContent,

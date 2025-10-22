@@ -5,7 +5,7 @@ import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
-import axios from "../api/axios";
+import axios from "@/api/axios"; 
 import { USER_API_END_POINT } from "../../utils/constant";
 import { RadioGroup } from "@/components/ui/radio-group";
 import { useDispatch, useSelector } from "react-redux";

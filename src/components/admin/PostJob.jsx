@@ -14,7 +14,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import axios from "../../api/axios";
+import axios from "@/api/axios"; 
 import { JOB_API_END_POINT } from '../../utils/constant';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';

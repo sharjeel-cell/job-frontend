@@ -5,7 +5,7 @@ import { MoreHorizontal} from 'lucide-react'
 import { PopoverContent, PopoverTrigger } from '@radix-ui/react-popover';
 import { useSelector } from 'react-redux';
 import { toast } from 'sonner';
-import axios from "../../api/axios";
+import axios from "@/api/axios"; 
 import { APPLICATION_API_END_POINT } from '../../utils/constant';
 const shortListingStatus = ['Accepted','Rejected']
 const ApplicantsTable = () => {

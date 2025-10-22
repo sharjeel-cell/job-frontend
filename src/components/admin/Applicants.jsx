@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from "../shared/Navbar";
 import ApplicantsTable from './ApplicantsTable';
 import { toast } from 'sonner';
-import axios from "../../api/axios";
+import axios from "@/api/axios"; 
 import { APPLICATION_API_END_POINT } from '../../utils/constant';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
