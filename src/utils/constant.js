@@ -8,3 +8,5 @@ export const COMPANY_API_END_POINT = 'https://job-backend-xi-roan.vercel.app/api
 // 'http://localhost:8000/api/v1/job'
 // 'http://localhost:8000/api/v1/application'
 // 'http://localhost:8000/api/v1/company'
+//curl -I https://job-backend-xi-roan.vercel.app/api/v1/job/get
+//check the access control allow origin and the origin domanin cmd 
