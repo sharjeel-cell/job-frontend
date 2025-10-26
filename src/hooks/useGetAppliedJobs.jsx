@@ -1,4 +1,4 @@
-import axios from "../api/axios";
+import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { APPLICATION_API_END_POINT } from "../utils/constant";
