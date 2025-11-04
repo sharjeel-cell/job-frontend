@@ -12,12 +12,23 @@ export default defineConfig({
     },
   },
   server: {
-    proxy: {
-      "/api": {
-        target: "https://job-backend-xi-roan.vercel.app",
-        changeOrigin: true,
-        secure: true,
-      },
+  proxy: {
+    '/api': {
+      target: 'http://localhost:8000',
+      changeOrigin: true,
+      secure: false,
+      cookieDomainRewrite: "localhost",
     },
   },
+}
+
+  // server: {
+  //   proxy: {
+  //     "/api": {
+  //       target: "https://job-backend-xi-roan.vercel.app",
+  //       changeOrigin: true,
+  //       secure: true,
+  //     },
+  //   },
+  // },
 })
